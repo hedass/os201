@@ -1,0 +1,37 @@
+Script started on 2020-06-08 18:24:40+0700
+]0;seanurian@SEANURIAN: /mnt/d/Kuliah/Semester 4/OS/UAS[01;32mseanurian@SEANURIAN[00m:[01;34m/mnt/d/Kuliah/Semester 4/OS/UAS[00m$ PS1='$ '
+$ ECH[K[K[Kecho $Gith[KHubIU[K[KUser
+hedass
+$ Echo[K[K[K[Kecho PS[K[K$PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-182520-b836-UAS/> 
+$ PS1="\$(eval \$PSTAMP)"
+200608-182525-b75e-UAS/> echo -e $CEKSAYA
+hedass ZCZCSCRIPTSTART 200528-235208 hedass
+hedass hedass 200528-235348-893e-UAS/> 200528-235348 SEQOK SUMOK 893e1923
+hedass hedass 200528-235404-3ef9-UAS/> 200528-235404 SEQOK SUMOK 3ef9641f
+hedass hedass 200528-235414-5bd0-UAS/> 200528-235414 SEQOK SUMOK 5bd0ea20
+hedass hedass 200528-235436-f9b2-UAS/> 200528-235436 SEQOK SUMOK f9b21c9f
+hedass ZCZCSCRIPTSTOP 200528-235448 SEQOK
+
+200608-182534-6aca-UAS/> echo -e $CEKSEBELA1
+helmiAlf ZCZCSCRIPTSTART 200608-234901 hedass
+helmiAlf hedass 200604-234928-399b-helmi.alfarel/> 200604-234928 SEQOK SUMOK 399b4253
+helmiAlf hedass 200604-234937-cf1d-helmi.alfarel/> 200604-234937 SEQOK SUMOK cf1d081e
+helmiAlf hedass 200604-234940-3696-helmi.alfarel/> 200604-234940 SEQOK SUMOK 36965f2a
+helmiAlf hedass 200604-234948-692e-helmi.alfarel/> 200604-234948 SEQOK SUMOK 692e9b1d
+helmiAlf ZCZCSCRIPTSTOP 200608-234956 SEQOK
+
+200608-182539-4b4e-UAS/> echo -e $CEKSEBELA2
+hnsmchl ZCZCSCRIPTSTART 200605-180804 hedass
+hnsmchl hedass 200605-180824-676e-hans.michael/> 200605-180824 SEQOK SUMOK 676eb49e
+hnsmchl hedass 200605-180824-676e-hans.michael/> 200605-180824 SEQOK SUMOK 676eb49e
+hnsmchl hedass 200605-180830-b7f6-hans.michael/> 200605-180830 SEQOK SUMOK b7f61000
+hnsmchl hedass 200605-180840-6573-hans.michael/> 200605-180840 SEQOK SUMOK 65736d34
+hnsmchl ZCZCSCRIPTSTOP 200605-180902 SEQOK
+
+200608-182550-32ed-UAS/> exit
+exit
+
+Script done on 2020-06-08 18:25:54+0700

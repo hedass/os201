@@ -1,0 +1,24 @@
+Script started on 2020-06-08 13:49:09+0700
+]0;seanurian@SEANURIAN: /mnt/d/Kuliah/Semester 4/OS/hedass-os201/os201/UAS[01;32mseanurian@SEANURIAN[00m:[01;34m/mnt/d/Kuliah/Semester 4/OS/hedass-os201/os201/UAS[00m$ PS1="$ "
+$ echo $Github[K[K[KHubUser
+hedass
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200608-135008-8df4-UAS/> ls -F
+[0m[01;32m0000-mypub.txt[0m*  [01;32m0001-mytest.txt[0m*  [01;32m0002-mytest.txt.asc[0m*  [01;32m0003-CEK-PAS0.txt[0m*
+200608-135035-7519-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-135110-e2f7-UAS/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-135133-dbe7-UAS/> gpg2 -sb -a SHA1SUM[C[1P
+[?1049h[22;0;0t[1;60r(B[m[4l[?7h[?1h=[39;49m[39;49m[H[2J(B[m[25;56H(0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B(B[m[26;56H(0[0mx(B[0m Please enter the passphrase to unlock the OpenPGP secret key:  (0[0mx(B(B[m[27;56H(0[0mx(B[0m "Sean Zeliq Urian <seanurian@gmail.com>"[27;121H(0[0mx(B(B[m[28;56H(0[0mx(B[0m 3072-bit RSA key, ID 23DA984A8144857B,[28;121H(0[0mx(B(B[m[29;56H(0[0mx(B[0m created 2020-05-27.[29;121H(0[0mx(B(B[m[30;56H(0[0mx(B(B[m[30;121H(0[0mx(B(B[m[31;56H(0[0mx(B(B[m[31;121H(0[0mx(B(B[m[32;56H(0[0mx(B[0m Passphrase: __________________________________________________ (0[0mx(B(B[m[33;56H(0[0mx(B(B[m[33;121H(0[0mx(B(B[m[34;56H(0[0mx(B(B[m[34;66H(0[0m(B[0m<OK>[34;106H<Cancel>[121G(0[0mx(B(B[m[35;56H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B(B[m[32;70H(0[0m(B(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m[60;1H[?1049l[23;0;0t[?1l>200608-135149-a8ba-UAS/> gpg2 --verify SHA1SUM.asc [1P
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon Jun  8 13:51:44 2020 +07
+gpg:                using RSA key 70E4FACCCE99D136AA4962CF23DA984A8144857B
+gpg: Good signature from "Sean Zeliq Urian <seanurian@gmail.com>" [ultimate]
+200608-135202-85a9-UAS/> exit
+exit
+
+Script done on 2020-06-08 13:52:12+0700
